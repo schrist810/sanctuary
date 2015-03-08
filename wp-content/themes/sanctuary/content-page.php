@@ -9,7 +9,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		<h2 class="bio-name"><h2><?php the_field('text'); ?></h2>
+		<h2 class="bio-name"><h2><?php the_field('job_title'); ?></h2>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

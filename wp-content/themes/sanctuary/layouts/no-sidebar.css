@@ -1,22 +1,16 @@
 /*
 Theme Name: sanctuary
-Layout: Content-Sidebar
+Layout: No-Sidebar
 */
 
 .content-area {
-	float: left;
-	margin: 0 -25% 0 0;
 	width: 100%;
 }
 .site-main {
 	margin: 0 25% 0 0;
 	background-color: #b2b2b2;
 }
-.site-content .widget-area {
-	float: right;
-	overflow: hidden;
-	width: 25%;
-}
+
 .site-footer {
 	clear: both;
 	width: 100%;
