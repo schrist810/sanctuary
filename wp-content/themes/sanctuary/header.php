@@ -29,7 +29,17 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Primary Menu', 'sanctuary' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			
+			<nav class="main-nav">
+		<ul>
+			<li class="Studio Cabins"><a href="#">Studio Cabins</a></li>
+			<li class="Apply"><a href="#">Apply</a></li>
+			<li class="Meals"><a href="#">Meals</a></li>
+			<li class="Events"><a href="#">Events</a></li>
+			<li class="Location"><a href="#">Location</a></li>
+			<li class="About"><a href="#">About</a></li>
+		</ul>
+	</nav>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 

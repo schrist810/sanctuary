@@ -522,13 +522,16 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
+	float: right;
 	width: 100%;
 	font-family: 'Arvo', serif;
 	font-weight: 400;
+	font-size: .5em;
 	text-transform:uppercase;
 	background:black;
+	opacity: 50%;
 	color: #fff;
+	padding: 20px;
 }
 
 .main-navigation ul {
@@ -538,15 +541,16 @@ a:active {
 }
 
 .main-navigation li {
-	float: left;
+	float: right;
 	position: relative;
+	margin-right: 3em;
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
 	color: #fff;
-	padding: 4px;
+	padding: 8px;
 }
 
 .main-navigation ul ul {
