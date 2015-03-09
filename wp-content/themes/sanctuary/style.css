@@ -112,10 +112,27 @@ dfn {
 }
 
 h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
+	font-size: 4em;
+	color:#fff;
+	width: 100%;
+	font-family: 'Arvo', serif;
+	font-weight: 800;
+	padding-bottom:0;
 }
 
+h2 {
+	font-size: 2em;
+	color:#fff;
+	width: 100%;
+	font-family: 'Arvo', serif;
+	font-weight: 800;
+	float:right;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
+}
 mark {
 	background: #ff0;
 	color: #000;

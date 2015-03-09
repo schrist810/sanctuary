@@ -26,10 +26,11 @@
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div><!-- .site-branding -->
-
+<h1>Sanctuary</h1>
+<p>Eco-Retreat for Professional Artists</p>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Primary Menu', 'sanctuary' ); ?></button>
-			
+
 			<nav class="main-nav">
 		<ul>
 			<li class="Studio Cabins"><a href="#">Studio Cabins</a></li>

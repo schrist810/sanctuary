@@ -15,3 +15,8 @@ Layout: Homepage
 	clear: both;
 	width: 100%;
 }
+
+body {
+	color:white;
+	size: 4em;
+}
