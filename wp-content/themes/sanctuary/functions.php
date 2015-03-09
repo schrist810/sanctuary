@@ -102,7 +102,11 @@ add_action( 'widgets_init', 'sanctuary_widgets_init' );
 function sanctuary_scripts() {
 	wp_enqueue_style( 'sanctuary-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'sanctuary-content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css');
+	if (is_page_template('homepage.php')) {
+		wp_enqueue_style( 'sanctuary-style', get_template_directory_uri() . '/layouts/homepage.css');
+	} else {
+		wp_enqueue_style ('sanctuary-style', get_template_directory_uri() . '/layouts/content-sidebar.css');
+	}
 
 	wp_enqueue_style('sanctuary-style-google-fonts', 'http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400,700|Open+Sans+Condensed:300');
 

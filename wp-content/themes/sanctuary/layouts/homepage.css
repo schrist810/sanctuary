@@ -1,14 +1,14 @@
 /*
 Theme Name: sanctuary
-Layout: No-Sidebar
+Layout: Homepage
 */
 
 .content-area {
 	width: 100%;
 }
 .site-main {
-	margin: 0 25% 0 0;
-	background-color: #b2b2b2;
+	margin: 0 0 0 0;
+	background-color: #fff;
 }
 
 .site-footer {
