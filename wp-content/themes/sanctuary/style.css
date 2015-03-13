@@ -359,6 +359,40 @@ big {
 }
 
 /*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+
+.site-info {
+	clear: both;
+	font-family: 'Arvo', serif;
+	font-weight: 400;
+	font-size: 1em;
+	text-transform:uppercase;
+	background:black;
+	opacity: 50%;
+	color: #fff;
+}
+	.site-info ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+	}
+
+	.site-info li {
+		float: left;
+		position: relative;
+		margin-right: 3em;
+	}
+
+	.msite-info a {
+		display: block;
+		text-decoration: none;
+		color: #fff;
+		padding: 8px;
+
+}
+
+/*--------------------------------------------------------------
 3.0 Elements
 --------------------------------------------------------------*/
 html {
