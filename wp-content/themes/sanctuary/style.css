@@ -274,6 +274,7 @@ Header Branding
 	position: absolute;
 	top: 20px;
 	left: 40px;
+	z-index: 2;
 }
 
 .site-description {
@@ -371,14 +372,16 @@ big {
 Footer
 --------------------------------------------------------------*/
 
-.site-info {
+.site-footer{
 	clear: both;
 	font-family: 'Arvo', serif;
 	font-weight: 400;
-	font-size: 1em;
-	text-transform:uppercase;
-	background:black;
-	opacity: 50%;
+	width: 100%;
+	padding: 20px 40px;
+	position: absolute;
+	bottom: -90px;
+	z-index: 2;
+	background: rgba(32, 32, 24, 0.64);
 	color: #fff;
 }
 	.site-info ul {
@@ -393,7 +396,7 @@ Footer
 		margin-right: 3em;
 	}
 
-	.msite-info a {
+	.site-info a {
 		display: block;
 		text-decoration: none;
 		color: #fff;
@@ -585,7 +588,7 @@ a:active {
 	width: 100%;
 	font-family: 'Arvo', serif;
 	font-weight: 400;
-	font-size: .5em;
+	font-size: .6em;
 	text-transform:uppercase;
 	color: #fff;
 	padding: 20px;
