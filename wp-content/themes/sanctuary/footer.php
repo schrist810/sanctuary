@@ -19,6 +19,8 @@
 				<li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
 			</ul>
 		</div><!-- .site-info -->
+		<div class="copyright">
+			<p>copyright Sanctuary Eco-Retreat 2014</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

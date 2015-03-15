@@ -427,6 +427,14 @@ Footer
 
 }
 
+.copyright {
+	font-family: 'Open Sans Condensed';
+	font-size: 15px;
+	float: right;
+	color: #fff;
+
+}
+
 /*--------------------------------------------------------------
 3.0 Elements
 --------------------------------------------------------------*/
