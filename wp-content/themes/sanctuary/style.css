@@ -287,7 +287,27 @@ Header Branding
 	padding:0;
 }
 
+.tagline {
+	font-family: 'Arvo';
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: none;
+	color:#fff;
+	position: absolute;
+	bottom: 100px;
+	right: 200px;
+	z-index: 2;
+}
 
+.tagline p {
+	font-family: 'Open Sans Condensed';
+	font-size: 25px;
+	position: relative;
+	bottom: 40px;
+	right: 0px;
+	z-index: 2;
+
+}
 
 /*--------------------------------------------------------------
 2.0 Typography
@@ -372,7 +392,7 @@ big {
 Footer
 --------------------------------------------------------------*/
 
-.site-footer{
+.site-footer {
 	clear: both;
 	font-family: 'Arvo', serif;
 	font-weight: 400;
@@ -380,6 +400,7 @@ Footer
 	padding: 20px 40px;
 	position: absolute;
 	bottom: -90px;
+	padding-bottom: 20px;
 	z-index: 2;
 	background: rgba(32, 32, 24, 0.64);
 	color: #fff;
@@ -563,7 +584,7 @@ a {
 }
 
 a:visited {
-	color: purple;
+	color: #fff;
 }
 
 a:hover,

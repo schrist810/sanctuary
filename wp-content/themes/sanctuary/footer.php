@@ -13,10 +13,10 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<ul>
-				<li><a href="#">Tumbler</a></li>
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">Pinterest</a></li>
-				<li><a href="#">Facebook</a></li>
+				<li><a href="#"><i class="fa fa-tumblr fa-2x"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+				<li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
 			</ul>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
