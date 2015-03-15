@@ -388,12 +388,14 @@ Footer
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
+		color: #fff;
 	}
 
 	.site-info li {
 		float: left;
 		position: relative;
 		margin-right: 3em;
+		color: #fff;
 	}
 
 	.site-info a {
