@@ -11,6 +11,23 @@ Layout: Homepage
 	background-color: #fff;
 }
 
+.site-branding {
+	font-family: 'Arvo';
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: -1px;
+	text-transform: none;
+}
+
+.site-description {
+	font-family: 'Open Sans Condensed';
+	font-size: 29px;
+	margin-top: -37px;
+	letter-spacing: .3px;
+	color: #FFF;
+	text-transform: none;
+}
+
 .site-footer {
 	clear: both;
 	width: 100%;
