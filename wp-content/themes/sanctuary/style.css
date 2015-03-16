@@ -388,6 +388,45 @@ big {
 	font-size: 125%;
 }
 
+
+/*--------------------------------------------------------------
+Body-Cabin Details
+--------------------------------------------------------------*/
+.cabin-name {
+	font-family: 'Arvo', serif;
+	font-size: 15px;
+	color: #fff;
+
+}
+
+.description {
+	font-family: 'Open Sans Condensed';
+	font-size: 15px;
+	color: #fff;
+
+
+}
+
+.features {
+	font-family: 'Open Sans Condensed';
+	font-size: 15px;
+	color: #fff;
+
+
+}
+
+.pricing {
+	font-family: 'Open Sans Condensed';
+	font-size: 15px;
+	color: #fff;
+
+
+}
+
+
+
+
+
 /*--------------------------------------------------------------
 Footer
 --------------------------------------------------------------*/
